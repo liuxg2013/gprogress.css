@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.gprogress {
+  border: 1px solid #ccc;
+  background-color: #BDC3C7;
+  height: 1.25rem; }
+
+.gprogress .gprogress-bar {
+  height: 1.125rem;
+  background-color: #3498DB;
+  line-height: 1.125rem;
+  text-align: right;
+  width: 23.5%;
+  float: left; }
+
+.gprogress .gprogress-bar span {
+  padding-right: 0.3125rem;
+  color: #fff;
+  font-size: 0.75rem; }
+
+

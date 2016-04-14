@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta charset = "UTF-8"/>
+<!-- 手机的媒体查询只有加上这个才会响应 -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<!-- 告诉IE浏览器以该浏览器的最高版本渲染本页面 -->
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" href="gprogress.css" />
+<title>gprogress样式</title>
+
+<body class = "gmargin-10">
+
+<div class="gtitlebar left">
+	<span class="title">默认gprogress</span>
+</div>
+
+<div class = "gprogress">
+   <div class = "gprogress-bar" style = "width:25%"><span>25%</span></div>
+</div>
+
+<div class="gtitlebar left">
+	<span class="title">颜色重叠gprogress</span>
+</div>
+
+<div class = "gprogress">
+   <div class = "gprogress-bar" style = "width:22%"><span>22%</span></div>
+   <div class = "gprogress-bar success-bg-color" style = "width:33%;" ><span>33%</span></div>
+   <div class = "gprogress-bar warning-bg-color" style = "width:15%;" ><span>15%</span></div>
+   <div class = "gprogress-bar danger-bg-color" style = "width:30%;" ><span>30%</span></div>
+</div>
+
+</body>
+                          
+</html>
